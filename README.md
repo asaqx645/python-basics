@@ -7,3 +7,4 @@ This curriculum is designed for absolute beginners and delivers a strong foundat
 ### 🔹 Week 1: Python Setup & Fundamentals
 - **Day 1:** Python Installation, Hello World, Comments
 - **Day 2:** Variables and Data Types (Strings, Ints, Floats, Bools)
+- **Day 3:** Operators in Python \
