@@ -47,3 +47,6 @@ print("not is_admin →", not is_admin, "\n")
 # operator presidence 
 result = 3 + 4 * 2 ** 2
 print("3 + 4 * 2 ** 2 =", result)  # 4**2 = 16; 4*4 = 16; 3 + 16 = 19 # PEMDAS # BODMAS
+
+result = 5 + 2 * (3 ** 2) - 8 / 4
+print(result)
