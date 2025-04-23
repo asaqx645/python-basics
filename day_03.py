@@ -1,4 +1,4 @@
-# arithemetic operators
+# arithmetic operators
 a =10
 b = 20
 c = 350
@@ -31,7 +31,7 @@ print(f"{a} < {b} →", a < b)# True
 print(f"{a} >= {b} →", a >= b) # False
 print(f"{a} <= {b} →", a <= b, "\n")  # True
 
-# logical operators'
+# logical operators
 has_access = True
 is_admin = False
 
