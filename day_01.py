@@ -1,5 +1,5 @@
 # so this is a print statement and uses a string
-# print("HELLO WORLD !!!")
+print("HELLO WORLD !!!")
 # print("----------")
 # print("This is the first Print statement of programming fundamentals") 
 # print(type("68465"))
@@ -19,7 +19,7 @@
 # print("----------")
 # print("below are floats")
 num = 651561.654563456 
-print(num)
+print(type(num))
 # print("numtype >>> \n",type(num))
 # # num1 = 78945613.65498730000000000
 # num1 = 78945613.65498765156456456465

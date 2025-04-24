@@ -22,7 +22,7 @@ print("x -= 4:", x) # 17
 y = x / 2
 print("x /= 2:", y, "\n") 
 
-# computational operatorns
+# computational operators
 
 print(f"{a} == {b} →", a == b) # False
 print(f"{a} != {b} →", a != b) # True
