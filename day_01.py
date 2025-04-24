@@ -25,7 +25,8 @@ print(type(num))
 # num1 = 78945613.65498765156456456465
 # num2 = 789.35749857
 # print("----------")
-# print(type(int(651561.654563456)))
+int1 = int(651561.654563456)
+print(int1)
 # print(type(num)) # -> we figured out that it is a float
 print(f"The value of my_float with 2 decimal places: {num:.2f}")
 # print("The value of my_float is: %f" % num2)
