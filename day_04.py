@@ -63,19 +63,19 @@
 #         print("multiplication-output: ",x*y)
 
         # arithmetic operators
-a =10
-b = 20
+# a =10
+# b = 20
 # c = 350
 # print(f"{a}")
 # print(f"{a-b}")
 # print(f"{a} // {b} = {a // b}") 
-print(f"{a} / {b} = {a / b:.2f}")
-print(f"{a} % {b} = {a % b}") 
+# print(f"{a} / {b} = {a / b:.2f}")
+# print(f"{a} % {b} = {a % b}") 
 
 
 
-for number in range(1, 11):
-    if number % 2 == 0: # true
-        print(f"{number} is Even")
-    else:
-        print(f"{number} is Odd")
+# for number in range(1, 11):
+#     if number % 2 == 0: # true
+#         print(f"{number} is Even")
+#     else:
+#         print(f"{number} is Odd")

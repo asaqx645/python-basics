@@ -9,3 +9,4 @@ This curriculum is designed for absolute beginners and delivers a strong foundat
 - **Day 2:** Variables and Data Types (Strings, Ints, Floats, Bools)
 - **Day 3:** Operators in Python 
 - **Day 4:** Control Flow in Python
+- **Day 5:** Functions, Arguments, return values, and Import Statements
