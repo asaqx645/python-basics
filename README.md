@@ -10,3 +10,5 @@ This curriculum is designed for absolute beginners and delivers a strong foundat
 - **Day 3:** Operators in Python 
 - **Day 4:** Control Flow in Python
 - **Day 5:** Functions, Arguments, return values, and Import Statements
+- **Day 6:** Data Stores, Collections
+
