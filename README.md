@@ -11,4 +11,6 @@ This curriculum is designed for absolute beginners and delivers a strong foundat
 - **Day 4:** Control Flow in Python
 - **Day 5:** Functions, Arguments, return values, and Import Statements
 - **Day 6:** Data Stores, Collections
-
+- **Day 7:** Contact Book Program, Review
+### 🔹 Week 2: Python Control Flow
+- **Day 8:** Conditional Statements

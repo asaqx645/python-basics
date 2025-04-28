@@ -36,11 +36,12 @@ def list_contacts(name):
     else:
         print(f"{name} not found.")
 
-# add_contact("Alice", "555-1234")
-# add_contact("Bob1", "555-5678")
-# add_contact("Bob2", "555-5678")
-# list_contacts("Bob2")
-# list_contacts("Bob4")
+add_contact("Alice", "555-1234")
+add_contact("Bob1", "555-5678")
+add_contact("Bob2", "555-5678")
+update_contact("Bob2", "203-731-1999")
+list_contacts("Bob2")
+list_contacts("Bob4")
 
 print("\nQuiz Time!")
 
