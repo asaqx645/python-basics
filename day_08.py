@@ -127,7 +127,7 @@ if part_time_job_input is True:
     else:
         print("Doing Well balancing work and study!\n")
 else:
-    print(f"No, Student {student['name']} is full time and "/
+    print(f"No, Student {student['name']} is full time and "\
           "not working a part time job.\n")
     
 # based on remaining courses, we could put out a graduation 
