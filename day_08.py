@@ -1,7 +1,8 @@
 name = input("Enter your name: ")
 program = input("Enter your program (e.g. MSCS): ")
 year = int(input("Enter your current year (1 or 2): "))
-credits_earned = int(input("Enter the number of credits you have earned so far (out of 32): "))
+credits_earned = int(input("Enter the number of " \
+"credits you have earned so far (out of 36): "))
 GPA = float(input("Enter GPA  : "))
 working_on_thesis = input("Are you working on a Thesis (yes/ no): ")
 part_time_job =  input("Are you working at a part-time job? (yes/ no): ")
@@ -48,10 +49,10 @@ working_on_thesis_input = working_on_thesis == "yes"
 
 
 # AI Course Progress Check
-required_ai_courses = ["AI Fundamentals", "Machine Learning"]
-required_math_courses = ["Discrete Math", "Statistics"]
-required_algo_courses = ["Algorithms"]
-minimum_credits = 32
+required_ai_courses = ["AI Fundamentals", "Machine Learning"] # 2
+required_math_courses = ["Discrete Math", "Statistics"] # 2
+required_algo_courses = ["Algorithms"] # 1
+minimum_credits = 36
 
 completed_ai_courses = [course for course in student["courses_taken"] if course in required_ai_courses]
 remaining_ai_courses = [course for course in required_ai_courses if course not in student["courses_taken"]]
@@ -75,12 +76,67 @@ if remaining_ai_courses == []:
         print("Reserch Track, No Thesis Course work only!")
 
 
-# complete alog and math requirements in program and 
-# write a if else for credits remaining, part time job.
-# based on remaining clurses, we could put out a graduation timeline in the program, 
+# credits
+if student['credits_earned'] >= minimum_credits:
+    print("Credit Status: Eligible to Graduate.\n")
+else:
+    credits_remaining = minimum_credits - student['credits_earned']
+    print(f"Current Credit Status: {credits_remaining}, "\
+          "so more credits are needed to graduate.")
 
-print(f"\nStudent: {student['name']}")
+# math requirements
+completed_math_courses = [course for course in student['courses_taken']
+                          if course in required_math_courses]
+remaining_math_courses = [course for course in student['courses_taken']
+                          if course not in student['courses_taken']]
+print("completed_math_courses & remaining_math_courses: ", 
+      completed_math_courses, remaining_math_courses)
+
+if len(completed_math_courses) == 2:
+    print("Math Essentials: Completed all Math courses.\n")
+else:
+    print("Math Essentials: ")
+    print(f"Completed :{completed_math_courses}")
+    print(f"Remaining :{remaining_math_courses}")
+# complete algo
+completed_algo_courses = [course for course in student['courses_taken']
+                          if course in required_algo_courses]
+                          
+remaining_algo_courses = [course for course in student['courses_taken']
+                          if course not in student['courses_taken']]
+if len(completed_algo_courses) == len(required_algo_courses):
+    print("Algorithm Essentials: Completed all Algorithm Courses. \n")
+else:
+    print("Algorithm Essentials: ")
+    print(f"Completed :{completed_algo_courses}")
+    print(f"Remaining :{remaining_algo_courses}")
+
+
+print(f"\nStudent: {student['name']}\n")
 print(f"Program: {student['program']}\n")
 
+# write a if else for  remaining, part time job.
+if part_time_job_input is True:
+    print(f"Yes, Student {student['name']} is working a part time job.\n")
+    if GPA >= 3.5 and len(student['courses_taken']) >= 3:
+        print("Impressive! Maintaining Strong Academic Performace" \
+        ", taking multiple courses, while holding a job\n")
+    elif GPA < 3.0:
+        print("Warning! Part time work might be affecting your grades, consider" \
+        "taking fewer courses\n")
+    else:
+        print("Doing Well balancing work and study!\n")
+else:
+    print(f"No, Student {student['name']} is full time and "/
+          "not working a part time job.\n")
+    
+# based on remaining courses, we could put out a graduation 
+if student['credits_earned'] >= 28:
+    print("Projected Graduation Timeline: Within 1 semester\n")
+elif student['credits_earned'] <=18:
+    print("Projected Graduation Timeline: Within 2 semester.\n")
+else:
+    print("Projected Graduation Timeline: 1 year or more\n")
 
-
+# Fix the output of the if elif else around math, since the 
+# remaining math course is Discrete math.
