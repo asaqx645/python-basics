@@ -1,7 +1,7 @@
-# 🐍 Python Basics Curriculum – 30 Days of Code (1/2 Hour per Day)
+# 🐍 Python Basics Curriculum – 30 Days of Code (1 per Day)
 
 Welcome to the **Python Basics 30-Day Course**! 
-This curriculum is designed for absolute beginners and delivers a strong foundation in Python through daily 1/2-hour lessons. Perfect for self-study.
+This curriculum is designed for absolute beginners and delivers a strong foundation in Python through daily 1 hour lessons. Perfect for self-study.
 ---
 ## 📅 Curriculum Schedule
 ### 🔹 Week 1: Python Setup & Fundamentals
@@ -13,4 +13,6 @@ This curriculum is designed for absolute beginners and delivers a strong foundat
 - **Day 6:** Data Stores, Collections
 - **Day 7:** Contact Book Program, Review
 ### 🔹 Week 2: Python Control Flow
-- **Day 8:** Conditional Statements
+- **Day 8:** Conditional Statements (Part 1)
+- **Day 9:** Conditional Statements (Part 2)
+- **Day 10:** Lists, Loops, break, continue, Nested For/ While Loops
