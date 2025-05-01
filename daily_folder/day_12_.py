@@ -1,7 +1,3 @@
-import os
-import json
-
-day12_complete_code = '''\
 import json
 
 # === Global variable for demonstration ===
@@ -26,18 +22,26 @@ def print_student_info(name, gpa):
     department = "Computer Science"
     print(f"{name} is a student in {department} at {school_name}.")
     if is_on_honor_roll(gpa):
-        print(f"{name} is on the Honor Roll!\\n")
+        print(f"{name} is on the Honor Roll!\n")
     else:
-        print(f"{name} is not on the Honor Roll.\\n")
+        print(f"{name} is not on the Honor Roll.\n")
 
-# === Student Class ===
-class Student:
-    def __init__(self, name, program, grades):
+# === Base Class: Person ===
+class Person:
+    def __init__(self, name, program):
         self.name = name
         self.program = program
+
+    def introduce(self):
+        return f"My name is {self.name}, and I am enrolled in the {self.program} program."
+
+# === Derived Class: Student inherits from Person ===
+class Student(Person):
+    def __init__(self, name, program, grades):
+        super().__init__(name, program)
         self.grades = grades
         self.gpa = compute_gpa(grades)
-    
+
     def to_dict(self):
         return {
             "name": self.name,
@@ -64,6 +68,7 @@ def process_students(json_data):
         student = Student(data['name'], data['program'], data['grades'])
         student_objects.append(student)
 
+        print(student.introduce())  # inherited method
         print(greet_student(student.name))
         print(f"GPA: {student.gpa}")
         print(f"Grades: {student.grades}")
@@ -85,27 +90,17 @@ def load_students_from_file(filename):
 
 # === Entry Point ===
 if __name__ == "__main__":
-    print("Day 12: Functions, Return Values, Scope, and JSON\\n")
-    
+    print("Day 12: Functions, Return Values, Scope, Inheritance, and JSON\n")
+
     students = process_students(sample_json)
 
     save_file = "day12_students.json"
     save_students_to_file(students, save_file)
 
-    print("\\nReloading students from file to verify...\\n")
+    print("\nReloading students from file to verify...\n")
     loaded_students = load_students_from_file(save_file)
 
     for s in loaded_students:
         print(s)
 
-    print("\\n✅ Program Complete.")
-'''
-# Save in the same directory where this script is located
-save_file = "day12_complete.py"
-file_path = os.path.dirname(os.path.abspath(__file__))
-path = os.path.join(file_path, save_file)
-
-with open(path, "w") as f:
-    f.write(day12_complete_code)
-
-print(f"✅ File written successfully to: {path}")
+    print("\n✅ Program Complete.")
