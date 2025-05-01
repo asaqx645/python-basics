@@ -38,7 +38,6 @@ student_cls= Student("Shawn", "MScCS", [3.5, 4.0, 3.8])
 print(student_cls.to_dict())
 
 
-
 sample_json = '''[
     {"name": "Aditya", "program": "MSCS", "grades": [4.0, 3.8, 3.9]},
     {"name": "Shawn", "program": "MSDS", "grades": [3.5, 3.6, 3.7]},
