@@ -1,7 +1,5 @@
 import json
 
-
-
 # function
 
 def greet_student(name):
@@ -33,8 +31,8 @@ class Student:
             "GPA":self.gpa, 
         }
     
-    # def __str__(self):
-    #     return f"{self.name} - {self.program} - GPA: {self.gpa}"
+    def __str__(self):
+        return f"{self.name} - {self.program} - GPA: {self.gpa}"
 
 student_cls= Student("Shawn", "MScCS", [3.5, 4.0, 3.8])
 print(student_cls.to_dict())
@@ -53,6 +51,7 @@ def process_student(sample_json):
     for data in student_data:
         student = Student(data['name'], data['program'], data['grades'])
         student_objects.append(student)
+        print("-" * 40)
         print(greet_student(student.name))
         print(f'Student Objects >>> {student_objects[0].gpa}')   
         print(f'Student Objects >>> {student_objects[0].grades}')   
