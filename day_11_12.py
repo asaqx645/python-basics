@@ -99,9 +99,17 @@ def save_students_to_file():
 def read_students_from_file(fullpath):
     with open(fullpath, 'r') as file:
         filedata = json.load(file)
-        return filedata
+        return [Student(d['name'], d['program'], d['grades']) for d in filedata]
+        # return filedata
                    
-save_students_to_file()
-student_lst_obj = read_students_from_file(full_path)
-for student in student_lst_obj:
-    print(student)
+# save_students_to_file()
+# student_lst_obj = read_students_from_file(full_path)
+# for student in student_lst_obj:
+#     print(student)
+    
+loaded_students = read_students_from_file(full_path)
+for s in loaded_students:
+    print(s)
+print("-" * 40)
+print("Program Complete.")
+print("-" * 40)
