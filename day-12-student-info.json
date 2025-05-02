@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Aditya",
+        "program": "MSCS",
+        "grades": [
+            4.0,
+            3.8,
+            3.9
+        ]
+    },
+    {
+        "name": "Shawn",
+        "program": "MSDS",
+        "grades": [
+            3.5,
+            3.6,
+            3.7
+        ]
+    },
+    {
+        "name": "Drew",
+        "program": "MBA",
+        "grades": [
+            3.2,
+            3.3,
+            3.1
+        ]
+    }
+]
