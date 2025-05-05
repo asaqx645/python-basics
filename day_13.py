@@ -11,7 +11,7 @@ def total_credits(*credits):
     print( 'what was passed to the total credits function: ', *credits)
     return print(f"Total Credits: {[sum(credits)]}")
 
-def display_profile(git**student_profile):
+def display_profile(**student_profile):
     print(student_profile['name'])
     for key, value in student_profile.items():
         print(f"key: {key} value: {value}")
