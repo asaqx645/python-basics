@@ -17,87 +17,87 @@ Each lesson includes:
 
 ## 📅 Daily Breakdown
 
-### ✅ Day 1: Python Setup & Hello World
+###  Day 1: Python Setup & Hello World
 
 * Installing Python
 * Writing and running your first program
 * `print()` and `# comments`
 
-### ✅ Day 2: Variables and Data Types
+###  Day 2: Variables and Data Types
 
 * `int`, `float`, `str`, `bool`
 * Type checking with `type()`
 * Naming conventions
 
-### ✅ Day 3: Input & String Formatting
+###  Day 3: Input & String Formatting
 
 * Using `input()`
 * String interpolation: `%s`, `format()`, and f-strings
 
-### ✅ Day 4: Conditional Statements
+###  Day 4: Conditional Statements
 
 * `if`, `elif`, `else`
 * Comparison operators
 * Truthiness
 
-### ✅ Day 5: Loops
+###  Day 5: Loops
 
 * `for` and `while` loops
 * `break` and `continue`
 * Loop over strings and lists
 
-### ✅ Day 6: Lists
+###  Day 6: Lists
 
 * Creating and modifying lists
 * Indexing and slicing
 * Using `append()`, `remove()`, `sort()`
 
-### ✅ Day 7: Tuples and Dictionaries
+###  Day 7: Tuples and Dictionaries
 
 * Tuples: immutable lists
 * Dictionaries: key-value storage
 * Accessing, adding, and modifying entries
 
-### ✅ Day 8: Nested Structures
+###  Day 8: Nested Structures
 
 * List of dictionaries
 * Looping through nested data
 * Conditional logic inside loops
 
-### ✅ Day 9: Advanced Looping with Lists
+###  Day 9: Advanced Looping with Lists
 
 * Iterating over complex structures
 * Modifying lists inside loops
 * Combining and splitting lists
 
-### ✅ Day 10: Functions – Introduction
+###  Day 10: Functions – Introduction
 
 * Defining and calling functions
 * Parameters and arguments
 * Return values
 * Scope: local vs global
 
-### ✅ Day 11: Classes & JSON I
+###  Day 11: Classes & JSON I
 
 * Defining a class with `__init__()`
 * Attributes and methods
 * Basic JSON serialization using `json.dumps()` and `json.loads()`
 
-### ✅ Day 12: Inheritance and Class Composition
+###  Day 12: Inheritance and Class Composition
 
 * Base `Person` class
 * `Student` subclass with `super()`
 * Object conversion with `.to_dict()`
 * Saving and loading student data using files
 
-### ✅ Day 13: Functions II – Default Arguments, \*args, \*\*kwargs, and Lambda
+###  Day 13: Functions II – Default Arguments, \*args, \*\*kwargs, and Lambda
 
 * Default argument values
 * Flexible function calls using `*args` and `**kwargs`
 * Anonymous functions with `lambda`
 * Real-world examples with `sorted()` and `key=lambda`
 
-### ✅ Day 14: Functional Programming – map(), filter(), reduce()
+###  Day 14: Functional Programming – map(), filter(), reduce()
 * Understanding higher-order functions
 * Applying map() to transform sequences
 * Using filter() to select items from sequences
