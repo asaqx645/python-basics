@@ -29,6 +29,9 @@ print("Even numbers with filter():", evens)
 def multiply(x, y):
     return x * y
 
+from functools import reduce
+
+
 product = reduce(multiply, numbers)
 print("Product with reduce():", product)
 
