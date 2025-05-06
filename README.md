@@ -174,6 +174,7 @@ To enable F5 to run the current Python file:
 ├── day_11_12.py               # Classes, inheritance, and JSON
 ├── day-12-student-info.json   # Sample student data output file
 ├── day_13.py                  # Advanced functions: *args, **kwargs, lambda
+├── day_14.py                  # Advanced functions: map(), filter(), reduce(), comprehension
 ├── .vscode/
 │   └── launch.json            # VS Code debugging configuration
 ├── README.md                  # This file
