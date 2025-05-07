@@ -106,6 +106,11 @@ Each lesson includes:
 * Using lambda with functional constructs
 * Comparing functional vs loop-based approaches
 
+###  Day 15: File I/O Operations
+* w write mode (overwrite)
+* a append mode (adds to the end)
+* r read mode (view contents)
+* r+ read + write mode (edit without deleting)
 
 ---
 

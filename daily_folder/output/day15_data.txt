@@ -1,0 +1,21 @@
+=== Day 15: File I/O in Python ===
+This file demonstrates write(), writelines(), and appending.
+
+Name	Program	Score	Timestamp
+Aditya	MBA	2.99	2025-05-07 01:48:00
+Aditya	MSDS	2.63	2025-05-07 01:48:00
+Aditya	MSCS	3.46	2025-05-07 01:48:00
+Aditya	MSDS	2.1	2025-05-07 01:48:00
+Alice	MBA	3.71	2025-05-07 01:48:00
+Aditya	MBA	3.42	2025-05-07 01:48:00
+Drew	MBA	2.12	2025-05-07 01:48:00
+Drew	MSCS	3.12	2025-05-07 01:48:00
+Drew	MSDS	2.54	2025-05-07 01:48:00
+Bob	MSCS	2.36	2025-05-07 01:48:00
+
+Additional Scores (write with format):
+Student: Drew     | Score: 54
+Student: Alice    | Score: 65
+Student: Aditya   | Score: 82
+Student: Alice    | Score: 67
+Student: Bob      | Score: 87
