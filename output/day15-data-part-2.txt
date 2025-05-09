@@ -1,0 +1,14 @@
+Line 1: Day 16 Part 2 - This file demonstrates File I/O in Python.
+Line 2: This line and above was writtin in w write mode.
+Line 3: This file will have the readline(), readlines() random and datetime Functions.
+Name	Program	Score	Timestamp
+Aditya	MENG	2.33	2025-05-09 04:53:22
+Michelle	MENG	3.7	2025-05-09 04:53:22
+Aditya	MENG	3.1	2025-05-09 04:53:22
+Michelle	EENG	3.69	2025-05-09 04:53:22
+Jason	MSCS	3.58	2025-05-09 04:53:22
+John	MENG	2.78	2025-05-09 04:53:22
+Jason	MENG	2.49	2025-05-09 04:53:22
+Michelle	MENG	3.72	2025-05-09 04:53:22
+Aditya	MSCS	2.85	2025-05-09 04:53:22
+Jason	EENG	2.6	2025-05-09 04:53:22

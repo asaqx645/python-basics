@@ -1,4 +1,0 @@
-Line 0: Updated Using the a mode.
-Line 1: This file demonstrates File I/O in Python.
-Line 2: This line and above was writtin in w write mode.
-Line 3: This line and above was writtin in a write mode.

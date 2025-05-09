@@ -35,4 +35,4 @@ with open(file_path, 'a') as out_file:
 
 with open(file_path, 'r') as out_file:
    data = out_file.read()
-   print("data: \n", data)
+   print(f"data:\n{data}")

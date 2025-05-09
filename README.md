@@ -112,6 +112,17 @@ Each lesson includes:
 * r read mode (view contents)
 * r+ read + write mode (edit without deleting)
 
+###  Day 16: File I/O Operations (Part 2)
+* readlines()
+* readline()
+* writelines()
+* modules - datetime(), random()
+
+###  Day 17: - Modules and Imports
+* ramdom(), math() modules
+* Import Custom Python Module
+* docstring __doc__ method 
+
 ---
 
 ## ⚙️ Project Setup Instructions
