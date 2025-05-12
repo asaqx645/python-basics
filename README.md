@@ -178,22 +178,32 @@ To enable F5 to run the current Python file:
 ## 📂 Project Structure
 
 ```
-├── day_01.py                  # Intro to Python and print statements
-├── day_02.py                  # Variables and basic types
-├── day_03.py                  # Input and string formatting
-├── day_04.py                  # Conditional statements
-├── day_05.py                  # Loops and iteration
-├── day_06.py                  # Lists
-├── day_07.py                  # Tuples and dictionaries
-├── day_08_09.py               # Nested structures and advanced list operations
-├── day_10.py                  # Introduction to functions
-├── day_11_12.py               # Classes, inheritance, and JSON
-├── day-12-student-info.json   # Sample student data output file
-├── day_13.py                  # Advanced functions: *args, **kwargs, lambda
-├── day_14.py                  # Advanced functions: map(), filter(), reduce(), comprehension
-├── .vscode/
-│   └── launch.json            # VS Code debugging configuration
-├── README.md                  # This file
+(pybasics-venv) @asaqx645 ➜ /workspaces/python-basics (main) $ tree
+.
+├── LICENSE
+├── README.md
+├── __pycache__
+│   └── helpers.cpython-312.pyc
+├── daily_folder
+├── day-12-student-info.json
+├── day_01.py
+├── day_02.py
+├── day_03.py
+├── day_04.py
+├── day_05.py
+├── day_06.py
+├── day_07.py
+├── day_08_09.py
+├── day_10.py
+├── day_11_12.py
+├── day_13.py
+├── day_14.py
+├── day_15.py
+├── day_16.py
+├── day_17.py
+├── helpers.py
+└── output
+    └── day15-data-part-2.txt
 ```
 
 ---
