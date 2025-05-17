@@ -123,6 +123,17 @@ Each lesson includes:
 * Import Custom Python Module
 * docstring __doc__ method 
 
+###  Day 18: - Intro to Json()
+* json() module
+* data type - dict
+* build million line 100000 dictionaries .json file
+
+### Day 19
+* built in functions
+* len(), min(), max()
+* sum(), sorted(), enumerate()
+* help(), round()
+
 ---
 
 ## ⚙️ Project Setup Instructions
